@@ -1,0 +1,41 @@
+body{ 
+  background: url("header.jfif") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+h1{
+	margin: 150px;
+	font-size: 3rem;
+	color: rgb(255, 120, 0);
+	text-shadow: rgba(255, 120, 0, 0.1);
+	/*text-transform: uppercase;*/
+
+}
+hr {
+    margin: 30px auto;
+    color:  rgb(255, 120, 0);
+    border: 3px solid rgb(255, 120, 0);
+    max-width: 65px;
+    opacity: 1;  
+}
+.buffer{
+	height: 20rem;
+}
+.btn-warning:hover {
+	border-color: rgb(255, 120, 0);
+	border-width: 4rem;
+}
+
+.btn{
+	padding: 1rem 2 rem;
+	border-radius:300px;
+	font-weight: 700;
+	background-color: rgb(255, 120, 0);
+	border: none;
+}
+.h-100{
+
+}
